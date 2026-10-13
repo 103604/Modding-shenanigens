@@ -1,5 +1,6 @@
 package net.item;
 
+import net.block.ModBlock;
 import net.ruben.tutorialmod.TutorialMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -21,6 +22,8 @@ public class ModCreativeTab {
             .displayItems((pParameters, pOutput) ->{
                 pOutput.accept(Moditems.SAPPHIRE.get());
                 pOutput.accept(Moditems.RAW_SAPHHIRE.get());
+                pOutput.accept(ModBlock.SAPPHIRE_BLOCK.get());
+                pOutput.accept(ModBlock.RAW_SAPPHIRE_BLOCK.get());
             })
             .build());
     public static void register(IEventBus eventBus){

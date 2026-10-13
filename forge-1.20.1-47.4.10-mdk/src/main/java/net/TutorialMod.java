@@ -3,6 +3,7 @@ package net.ruben.tutorialmod;
 import com.mojang.logging.LogUtils;
 import net.item.ModCreativeTab;
 import net.item.Moditems;
+import net.block.ModBlock;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,6 +29,7 @@ public class TutorialMod {
 
         ModCreativeTab.register(modEventBus);
         Moditems.register(modEventBus);
+        ModBlock.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
