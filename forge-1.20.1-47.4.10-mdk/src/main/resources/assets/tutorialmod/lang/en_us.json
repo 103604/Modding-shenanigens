@@ -1,9 +1,13 @@
 {
   "item.tutorialmod.sapphire": "sapphire",
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
+  "item.tutorialmod.metal_detector": "metal detector",
 
   "block.tutorialmod.sapphire_block": "sapphire block",
   "block.tutorialmod.raw_sapphire_block": "raw sapphire block",
+  "block.tutorialmod.sapphire_ore": "sapphire ore",
+  "block.tutorialmod.deepslate_sapphire_ore": "deepslate sapphire ore",
+  "block.tutorialmod.sound_block": "don't stop the music music yeah don't stop the music",
 
   "creativetab.tutorial_tab": "modding shenanigans"
 }

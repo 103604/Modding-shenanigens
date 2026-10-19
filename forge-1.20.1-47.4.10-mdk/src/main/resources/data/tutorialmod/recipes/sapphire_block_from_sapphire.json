@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "patern": [
+  "pattern": [
     "###",
     "###",
     "###"
-            ],
+  ],
   "key": {
     "#": {
       "item": "tutorialmod:sapphire"
     }
   },
   "result": {
-    "item": "tutorialmod:sapphire_block",
-    "count": 1
+    "item": "tutorialmod:sapphire_block"
   }
 }
