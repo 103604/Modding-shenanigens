@@ -1,13 +1,21 @@
 {
   "item.tutorialmod.sapphire": "sapphire",
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
+
+  "item.tutorialmod.strawberry": "strawberry",
+
+  "item.tutorialmod.pine_cone": "pine cone ",
+
   "item.tutorialmod.metal_detector": "metal detector",
 
   "block.tutorialmod.sapphire_block": "sapphire block",
   "block.tutorialmod.raw_sapphire_block": "raw sapphire block",
   "block.tutorialmod.sapphire_ore": "sapphire ore",
   "block.tutorialmod.deepslate_sapphire_ore": "deepslate sapphire ore",
-  "block.tutorialmod.sound_block": "don't stop the music music yeah don't stop the music",
+  "block.tutorialmod.sound_block": "sound block",
+
+  "block.tutorialmod.sound_block.tooltip": "makes a sound when clicked",
+  "block.tutorialmod.metal_detector.tooltip": "vinds valuebles underground",
 
   "creativetab.tutorial_tab": "modding shenanigans"
 }
