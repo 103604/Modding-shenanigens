@@ -13,6 +13,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.Tags;
+import net.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -62,6 +63,6 @@ public class MetalDetectorItem extends Item {
         }
 
     private boolean isValuebleBlock(BlockState state) {
-        return state.is(Tags.Blocks.ORES_IRON) || state.is(Tags.Blocks.ORES_DIAMOND);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES );
     }
 }
